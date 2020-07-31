@@ -43,16 +43,7 @@ devtools::install_github('r2rahul/sybilMosek')
 ## Quick Start Guide
 A quick linear optimization (LP) example from Sybil vignette [1]. The problem statement
 
-$$
-\begin{aligned}
-&\underset{x}{\text{max}} \,\, x_1 + x_2 \\
-&\text{subject to}\\
-&0.5* x_1 + x_2 \le 4.5\\
-&2* x_1 + x_2 \le 9\\
-&0 \le x_1 \le 1000    \\
-&0 \le x_2 \le 1000 
-\end{aligned}
-$$
+![](inst/req.png)
 
 The equivalent sybilMosek implementation
 
