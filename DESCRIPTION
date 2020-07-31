@@ -1,0 +1,24 @@
+Package: sybilMosek
+Type: Package
+Title: Mosek support for sybil
+Version: 1.0.0
+Date: 2017-01-09
+Authors@R: c(person("Rahul", role = c("aut", "cre"), email =
+    "katyayan.rahul@gmail.com"))
+Depends:
+    R (>= 2.14.2),
+    sybil (>= 1.2.2),
+    Rmosek
+Imports:
+    Matrix,
+    methods
+Description: The package sybilMosek interface Mosek Optimization support for the package sybil
+License: GPL-3
+Packaged: 2017-01-09 14:16:44 UTC; Rahul
+Author: Rahul [aut, cre]
+Maintainer: Rahul <katyayan.rahul@gmail.com>
+Suggests:
+    knitr,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
